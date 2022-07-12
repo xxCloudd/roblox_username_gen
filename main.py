@@ -23,13 +23,8 @@ if lowerOrUppercase == "L":
 
 uCharacters = Characters
 
-if underscore:
-    uCharacters = uCharacters + "_"
-
 if underscore == "Y":
-    underscore = True
-else:
-    underscore = False
+    uCharacters = uCharacters + "_"
 
 if not length or length < 5:
     length = 5
