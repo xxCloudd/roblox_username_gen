@@ -1,3 +1,3 @@
 # roblox_username_gen
 
-wait
+dependencies: request
