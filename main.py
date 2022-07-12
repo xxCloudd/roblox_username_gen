@@ -2,6 +2,7 @@ import requests
 import time
 import random
 import threading
+import os
 
 multithreading = input("Multithreading? Y/N -> ").upper()
 length = int(input("Length -> "))
@@ -9,6 +10,9 @@ letters = input("Letters? Y/N -> ").upper()
 numbers = input("Numbers? Y/N -> ").upper()
 underscore = input("Underscore? Y/N -> ").upper()
 lowerOrUppercase = input("Uppercase/Lowercase? U/L -> ").upper()
+
+
+os.system("cls")
 
 Characters = ""
 
